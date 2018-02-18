@@ -15,12 +15,12 @@ def goldenRatioSimulator(a, b):
         a = nextA
         # print a 
         # print b
-        # print “[count]”
+        # print "[count]"
         # print count
-        # print “[divided]”
+        # print "[divided]"
         # print divided
 
-    return {‘a’ : originalA, ‘b’ : originalB, ‘iter’ : count, ‘divided’ : divided}
+    return {'a' : originalA, 'b' : originalB, 'iter' : count, 'divided' : divided}
 
 group = []
 for i in range(1, 10000):
@@ -31,13 +31,13 @@ for i in range(1, 10000):
 
 longestIter = 0
 for x in range(1, len(group)):
-   if(group[x][‘iter’] > longestIter):
-       longestIter = group[x][‘iter’]
+   if(group[x]['iter'] > longestIter):
+       longestIter = group[x]['iter']
        longest = {
-        ‘a’ : group[x][‘a’],
-        ‘b’ : group[x][‘b’],
+        'a' : group[x]['a'],
+        'b' : group[x]['b'],
        
-        ‘iter’ : longestIter,
+        'iter' : longestIter,
          }
 
-print longest (edited)
+print longest
