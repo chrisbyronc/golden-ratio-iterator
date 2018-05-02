@@ -4,7 +4,7 @@ import random
 def goldenRatioSimulator(a, b):
     count = 0
     divided = 0
-    goldenRatio = 1.61803398874989484820
+    goldenRatio = (1 + 5 ** 0.5) / 2
     originalA = a
     originalB = b
     while divided != goldenRatio:
